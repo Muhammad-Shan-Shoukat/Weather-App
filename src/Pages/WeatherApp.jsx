@@ -140,9 +140,9 @@ const WeatherApp = () => {
             key={index}
             className="bg-white/10 backdrop-blur-md rounded-2xl p-6 text-center shadow-lg"
           >
-            <img
+            <img alt="weather icon"
               src={`https://openweathermap.org/img/wn/${item.Icon}@2x.png`}
-              className="mx-auto w-24 h-24"
+              className="mx-auto w-24 h-24" 
             />
 
             <p className="text-green-200 text-xl">{item.Condition}</p>
