@@ -25,7 +25,7 @@ import { Search ,ArrowBigUpDash   } from 'lucide-react';
     
     return(
     <>
-    <div className="h-full">
+    <div  >
      <h1 className="text-center text-3xl mt-3 font-bold text-white">Weather App</h1>
 
       <input type="text " className="border rounded-lg h-9 mt-5 w-[90%] ml-3 bg-white/15 text-white placeholder-white/70" placeholder="Type Here City Name" value={GetCity}  onChange={(e)=>{SetCity(e.target.value)}} onKeyDown={(e)=>{if(e.key==="Enter") ShowCityData() }}/>
