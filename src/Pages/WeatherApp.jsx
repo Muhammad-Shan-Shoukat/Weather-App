@@ -39,10 +39,10 @@ import { Search ,ArrowBigUpDash   } from 'lucide-react';
          { <img alt="weather icon" src={`https://openweathermap.org/img/wn/${item.Icon}@2x.png`} className="relative left-20 w-[120px] h-[120px]" />
          }
       </li>
-           <li className="text-center text-green-200 text-2xl relative bottom-5 right-1">
+           <li className="text-center text-green-200 text-2xl relative bottom-2 right-1">
      {item.Condition}
       </li>
-     <li className="text-5xl text-white text-center mt-4">
+     <li className="text-5xl text-white text-center">
      {item.Temp}°C   
      <li className="text-4xl">
      {item.Name}
