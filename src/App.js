@@ -7,7 +7,7 @@ function App() {
 
  
 
-  <div style={{backgroundImage: `url(${BgImage})`,}}className='border rounded-2xl w-[300px] h-[500px] flex flex-row justify-center mt-16 relative left-[600px] ' >
+  <div style={{backgroundImage: `url(${BgImage})`,}} className='border rounded-2xl w-[300px] h-[500px] flex flex-row justify-center mt-16 relative left-[600px]' >
 <WeatherApp  />
 
   </div> </>
