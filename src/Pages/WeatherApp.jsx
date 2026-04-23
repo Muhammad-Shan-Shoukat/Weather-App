@@ -34,7 +34,7 @@ import { Search ,ArrowBigUpDash   } from 'lucide-react';
 <ul>
       {
       GetWeatherData.map((item)=>(
-     <div key={item.name} className="listy-none">
+     <div key={item.Name} className="listy-none">
         <li >
          { <img src={`https://openweathermap.org/img/wn/${item.Icon}@2x.png`} className="relative left-20 w-[120px] h-[120px]" alt="Icon Image" />
          }
